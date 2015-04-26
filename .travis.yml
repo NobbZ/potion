@@ -4,7 +4,7 @@ otp_release:
 before_install:
   - wget http://s3.hex.pm/builds/elixir/v1.0.4.zip
   - unzip -d elixir v1.0.4.zip
-  - ll $HOME/otp
+  - ls -al $HOME/otp
 before_script:
   - export PATH=`pwd`/elixir/bin:$PATH
   - mix local.hex --force
