@@ -29,9 +29,11 @@ defmodule Potion.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [{:ex_parsec, "~> 0.2.1"},
-    
+
      {:earmark, "~> 0.1", only: :dev},
-     {:ex_doc,  "~> 0.7", only: :dev}]
+     {:ex_doc,  "~> 0.7", only: :dev},
+
+     {:inch_ex, only: :docs}]
   end
 
   defp escript do
