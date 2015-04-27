@@ -1,10 +1,11 @@
-import ExParsec
-import ExParsec.Helpers
-
 defmodule Potion.Parser do
   use ExParsec
 
   alias Potion.Token
+
+  def evaluate(code) do
+    2
+  end
 
   @doc """
   Parses any Integral literal to an %Potion.Token{type: :int}.
