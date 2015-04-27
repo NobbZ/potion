@@ -14,9 +14,9 @@ all: $(BIN) doc
 
 test: $(TESTS) $(SPECS) $(BEAMS) $(SRCS)
 	@echo "`tput setaf 7; tput setab 1`Running tests`tput sgr 0`"
-	@MIX_ENV=$(MIX_ENV) $(MIX) test
+	@$(MIX) test
 	@echo "`tput setaf 7; tput setab 1`Running specs`tput sgr 0`"
-	@MIX_ENV=$(MIX_ENV) $(MIX) spec
+	@$(MIX) espec 
 .PHONY: test
 
 clean:
