@@ -33,6 +33,8 @@ defmodule Potion.Mixfile do
      {:earmark, "~> 0.1", only: :dev},
      {:ex_doc,  "~> 0.7", only: :dev},
 
+     {:ex_spec, "~> 0.3.0", only: :test},
+
      {:inch_ex, only: :docs}]
   end
 

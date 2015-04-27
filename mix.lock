@@ -1,4 +1,7 @@
 %{"earmark": {:hex, :earmark, "0.1.15"},
   "ex_doc": {:hex, :ex_doc, "0.7.2"},
   "ex_parsec": {:hex, :ex_parsec, "0.2.1"},
-  "monad": {:hex, :monad, "1.0.4"}}
+  "ex_spec": {:hex, :ex_spec, "0.3.0"},
+  "inch_ex": {:hex, :inch_ex, "0.2.4"},
+  "monad": {:hex, :monad, "1.0.4"},
+  "poison": {:hex, :poison, "1.4.0"}}
